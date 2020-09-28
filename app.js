@@ -54,7 +54,7 @@ document.querySelector('.btn-hold').addEventListener('click',function(){
     //WINNNING CONDITION
         
         
-    if(Number(document.querySelector('#score-'+switching_playeres).textContent) >= 25 ){
+    if(Number(document.querySelector('#score-'+switching_playeres).textContent) >= 100 ){
     
     document.querySelector('#name-'+switching_playeres).textContent = 'WINNER!!!';
         gameOn = false;
